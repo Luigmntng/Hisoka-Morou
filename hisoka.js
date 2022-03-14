@@ -108,7 +108,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
 
         switch(command) {
 	    case 'sc': {
-                m.reply('Script : https://github.com/DikaArdnt/Hisoka-Morou\n\n Dont Forget Give Star\n\nDonate : https://ko-fi.com/cak_haho\n\n Dont Forget Donate')
+                m.reply('Script : https://github.com/DikaArdnt/Hisoka-Morou')
             }
             break
             case 'chat': {
@@ -967,12 +967,12 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'owner': case 'creator': {
                 let vcard = 'BEGIN:VCARD\n' // metadata of the contact card
                     + 'VERSION:3.0\n' 
-                    + 'N:;Dika Ardnt.;;;'
-                    + 'FN:Dika Ardnt.\n' // full name
-                    + 'ORG:Owner Bot;\n' // the organization of the contact
-                    + 'TEL;type=CELL;type=VOICE;waid=6288292024190:+62 882-9202-4190\n' // WhatsApp ID + phone number
+                    + 'N:;Lord Lui;;;'
+                    + 'FN:Lord Lui\n' // full name
+                    + 'ORG:Poibear kun;\n' // the organization of the contact
+                    + 'TEL;type=CELL;type=VOICE;waid=6282146092695:+62 821-4609-2695\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
-                hisoka.sendMessage(m.chat, { contacts: { displayName: 'Dika Ardnt.', contacts: [{ vcard }] } }, { quoted: m })
+                hisoka.sendMessage(m.chat, { contacts: { displayName: 'Lord Lui', contacts: [{ vcard }] } }, { quoted: m })
             }
             break
             case 'eval': {
@@ -1149,13 +1149,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             hydratedContentText: anu,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    displayText: 'My Instagram',
+                                    url: 'instagram.com/ahmdlui'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 821-4609-2695'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1169,7 +1169,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Script',
+                                    displayText: 'EsCeh',
                                     id: 'sc'
                                 }
                             }]
