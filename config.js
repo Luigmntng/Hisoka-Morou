@@ -14,24 +14,24 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapi.xyz': 'Your Key',
+	'https://zenzapi.xyz': '805a6c3fa9',
 }
 
 // Other
-global.owner = ['6288292024190','62882920241909','62882920241908']
-global.packname = 'Hisoka Morrow'
+global.owner = ['6282146092695','6285236532492']
+global.packname = 'Maaf Lag'
 global.author = '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'
 global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    admin: 'Fitur Khusus Admin Group!',
-    botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
-    owner: 'Fitur Khusus Owner Bot',
-    group: 'Fitur Digunakan Hanya Untuk Group!',
-    private: 'Fitur Digunakan Hanya Untuk Private Chat!',
-    bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Loading...',
+    admin: 'Fitur Khusus Jagoan Group!',
+    botAdmin: 'Bot Harus Menjadi Suhu/admin Terlebih Dahulu!',
+    owner: 'Fitur Khusus Sesepuh Bot',
+    group: 'Fitur Digunakan Hanya Untuk GECE!',
+    private: 'Fitur Digunakan Hanya Untuk PECE!',
+    bot: 'Fitur Khusus Pengguna Elit bot',
+    wait: 'Loading! Jgn Lupa Follow ig sy @ahmdlui...',
 }
 global.thumb = fs.readFileSync('./lib/hisoka.jpg')
 
